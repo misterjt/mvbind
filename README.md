@@ -25,3 +25,20 @@ $(function(){// Dont forget to wait for DOMContentLoaded
 }) 
 
 ```
+
+Options
+======
+MVbind even got an option. You can choose where to get the first data on initialize.
+
+```javascript
+
+var View=Backbone.View.extend({
+	initialize:function(){
+		this.mvbind({source:'view'}) // Model will take data from input;
+	},
+	bind:{
+		'input.name':'name'
+	}
+})
+
+```
