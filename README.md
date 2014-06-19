@@ -27,7 +27,7 @@ $(function(){// Dont forget to wait for DOMContentLoaded
 ```
 
 Options
-=====
+------
 MVbind even got an option. You can choose where to get the first data on initialize.
 
 ```javascript
