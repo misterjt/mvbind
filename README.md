@@ -11,7 +11,8 @@ var View=Backbone.View.extend({
 		this.mvbind() // To start data binding you need to call this.mvbind();
 	},
 	bind:{
-		'input.name':'name'// You can use jQuery selectors in left-hand side. In right-hand type key for model;
+		'input.name':'name'// You can use jQuery selectors in left-hand side. 
+		//In right-hand type key for model;
 	}
 })
 
