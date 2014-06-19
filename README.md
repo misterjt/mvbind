@@ -1,7 +1,7 @@
 Backbone MVbind
 ======
 
-Backbone MVbind is simple data bind tool to connect Model and View.
+Backbone MVbind is simple and ultra-lightweight (1.176kb) data bind tool to connect Model and View.
 
 ```javascript
 
